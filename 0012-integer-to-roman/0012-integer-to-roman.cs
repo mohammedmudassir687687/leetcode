@@ -3,8 +3,7 @@ public class Solution {
         
         string res = "";
         
-        while(num != 0) {
-       
+
             while (num - 1000 >= 0) {
                 res += "M";
                 num -= 1000;
@@ -66,9 +65,10 @@ public class Solution {
                 res += 'I';
                 num -= 1;
             }
-            
-        }
-        return res;
         
-    }
+        return res;
+        }
+        
+        
+    
 }
